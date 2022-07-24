@@ -1,0 +1,48 @@
+ul{
+    display: flex;
+    justify-content: center;
+}
+li{
+    list-style-type:none;
+    padding: 20px;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color:rgb(9, 1, 84);
+}
+.image{
+    margin-top: 1cm;
+    color: rgb(106, 0, 255);
+}
+.middle{
+    display: flex;
+}
+.right{
+    margin-left: 10cm;
+}
+.click{
+    margin-top: 2cm;
+    font-size:30px ;
+    margin-left: 100px;
+}
+.click:hover{
+    color: rgb(123, 2, 89);
+    background-color: burlywood;
+}
+.bottom{
+    display: flex;
+    margin: 4cm;
+}
+.bottom h1{
+    text-align: center;
+}
+.bottom p{
+    padding:1cm;
+}
+* p{
+    font-size:20px;
+}
+.main{
+    background:linear-gradient(red,blue)
+}

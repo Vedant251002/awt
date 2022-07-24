@@ -1,0 +1,59 @@
+    body{
+        margin: 0;
+    }
+    .header{
+        background-color: black;
+        color: aliceblue;
+        display: flex;
+        flex-direction: row;
+    }
+    .logo{
+        margin-left: 2cm;
+    }
+    .menu ul{
+        display: flex;
+        margin-left: 25cm;
+    }
+    li,a{
+        padding:10px 10px ;
+        color: aliceblue;
+        list-style: none;
+        font-size: large;
+    }
+    .menu span a{
+        color: tomato;
+    }
+    .bottom{
+        display: flex;
+    }
+    .b1{
+        margin-left: 3cm;
+        margin-top: 2cm;
+    }
+    .b2 img{
+        margin:1cm 2cm ;
+        border-radius: 30%;
+        margin-right: 4cm;
+    }
+    .end{
+        color: aliceblue;
+        background-image: url(odyssey-night_hotel-metropole-mc_l-galaup-3.webp);
+        background-size: cover;
+        padding-top: 2cm;
+        padding-bottom: 10cm;
+    }
+    .end h1{
+        text-align: center;
+        margin-bottom: 1cm;
+    }
+    .e1{
+        margin-bottom: 1cm;
+    }
+    .e1 ,.e2{
+        display: flex;
+        background-color: chocolate;
+    }
+    .e1 img,.e2 img{
+        border-radius: 50%;
+        margin:0 1cm;
+    }

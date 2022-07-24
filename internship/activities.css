@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+} 
+
+.main-header{
+    background-image: url(images/pexels-riccardo-bertolo-4245826.jpg);
+    background-size: cover;
+    border-bottom: 5px solid;
+    border-color:chocolate;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    margin-left: -150px;
+    padding-top: 10px;
+}
+
+.nav-menu{
+    display:flex;
+    list-style: none;
+    margin-right: -5cm;
+}
+.nav-menu li{
+    padding: 30px;
+}
+.nav-menu a{
+    font-size:x-large;
+    color: antiquewhite;
+    text-decoration: none;
+}
+.btline{
+    background-color: chocolate;
+    height: 3px;
+    width: 97px;
+    margin-top: 4px;
+    margin-left: -15px;
+}
+.nav-menu a:hover + .btline{
+    visibility: hidden;
+}
+.t1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 1cm;
+}
+.t1line{
+    background-color: chocolate;
+    height: 2px;
+    width: 100px;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 2cm;
+    margin-bottom: 3cm;
+    margin-right: 2cm;
+}
+.item{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+.item::after{
+    content: '';
+    position: absolute;
+    background-color: yellow;
+    opacity: .8;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: scale(2) translateX(-75%) translateY(-75%) rotate(-28deg);
+    transition: transform 1.5s ease;
+}
+.item:hover::after{
+    transform: scale(2) translateX(0) translateY(0) rotate(-28deg);
+}
+.item-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color:darkblue;
+    padding: 4cm;
+    opacity: 0;
+    z-index: 1;
+    text-align: center;
+    transform: opacity 2s ease-in-out;
+    transform: translateY(-20px);
+    transition-delay: 600ms;
+}
+.item:hover .item-text{
+    opacity: 1;
+}
+
+.end{
+    color: white;
+    background-color: rgb(36, 35, 35);
+}
+.end1{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2cm;
+}
+.compline{
+    height: 1px;
+    width: 80px;
+    background-color: rgb(231, 103, 40);
+}
+.navigate{
+    margin-left: 4cm;
+}
+.navigate h2{
+    padding: 0 5cm;
+    text-align:justify;
+    margin-left: -4.6cm;
+}
+.navigateline{
+    height: 1px;
+    width: 80px;
+    margin-left: 15px;
+    background-color: rgb(231, 103, 40)
+}
+.navi-menu li,a{
+    text-decoration: none;
+    list-style: none;
+    color:aliceblue;
+    padding: 10px 0px;
+    font-size: large;
+    margin-left: -12px;
+}
+
+.navi-menu a:hover{
+    color: chocolate;
+    padding-left: 10px;
+    transition:1s ease;
+}
+.follow{
+    padding: 0 2cm;
+}
+.followline{
+    height: 1px;
+    width: 90px;
+    background-color: rgb(231, 103, 40);
+}
+.icons{
+    display: flex;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.icons i{
+    border-radius: 50%;
+    padding:15px;    
+    background-color: rgb(78, 77, 77);
+    margin-right: 10px;
+}
+.icons i:hover{
+    color: black;
+    background-color:orange;
+}
+.mail i,.phone i{
+    font-size: 1cm;
+    margin-top:20px ;
+}
+.phone{
+    margin-bottom: 5cm;
+}
+.comp,.navigate,.follow{
+    margin-top: 1cm;
+}
+.copy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

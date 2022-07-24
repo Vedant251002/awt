@@ -1,0 +1,230 @@
+body{
+    margin: 0;
+}
+#main-header{
+    background-image:url(images/pexels-riccardo-bertolo-4245826.jpg) ;
+    background-size: cover;
+    padding-bottom: 2%;
+}
+.nav-menu {
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 18%;
+    margin-left: 1cm;  
+}
+.nav-menu a{
+    padding: 0 19px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.nav-menu li{
+    padding: 30px 10px;
+}
+.btline{
+    background-color: chocolate;
+    height: 3px;
+    width: 60px;
+    margin-top: 4px;
+    margin-left: 8px;
+}
+.nav-menu a:hover + .btline{
+    visibility: hidden;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4cm;
+}
+.logo{
+    margin-right: 13cm;
+}
+.bingo h1{
+    font-size:35px;
+    color: rgb(247, 250, 249);
+    margin: -0px;
+} 
+.bingo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.bingo button{
+    color:blue;
+    font-size: larger;
+    padding: 15px;
+    background-color:cyan;
+}
+.bingo button:hover{
+    background-color: orange;
+    color:darkblue;
+}
+.show{
+    display: flex;
+    visibility: hidden; 
+    justify-content: center;
+    color: rgb(238, 158, 92);
+}
+.bingo h1:hover + .show{
+    visibility: visible;
+}
+.bottom {
+    display: flex;   
+    flex-direction: column;
+    text-align: center;     
+    align-items: center;    
+}
+.img {
+    display: flex;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.bottomline{
+    background-color: brown;
+    height: 2px;
+    width: 70px;
+}
+.img1,.img2,.img3,.img4{
+    text-align: center;
+    margin: 0.5cm;
+}
+.uimg{
+    display: flex;
+    flex-direction: row;
+}
+.uimg1,.uimg2,.uimg3,.uimg4{
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    align-items: center;
+    padding:150px;    
+    padding-top: 60px;
+    padding-bottom: 40px;
+}   
+.uimg1,.uimg3{
+    background-color: rgb(223, 220, 220);
+}
+.uimg2,.uimg4{
+    background-color: rgb(124, 124, 125);
+}
+.head{
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    align-items: center;
+}
+.hline{
+    background-color: brown;
+    height: 2px;
+    width: 90px;
+}
+.head p{
+    font-size: larger;
+}
+.last{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.img i{
+    color: rgb(222, 222, 20);
+    font-size: 30px;
+}
+.uimg i{
+    font-size: 50px;
+}
+.last i{
+    border-radius: 50%;
+    background-color: black;
+    padding: 30px;
+    font-size:50px ;
+    color: white;
+    transition: all 1s ease;
+    position: relative;
+}
+.last i:hover{
+    background-color: orange;
+    padding: 45px;
+}
+.end{
+    color: white;
+    background-color: rgb(36, 35, 35);
+}
+.end1{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2cm;
+}
+.compline{
+    height: 1px;
+    width: 80px;
+    background-color: rgb(231, 103, 40);
+}
+.navigate{
+    margin-left: 4cm;
+}
+.navigate h2{
+    padding: 0 5cm;
+    text-align:justify;
+    margin-left: -4.6cm;
+}
+.navigateline{
+    height: 1px;
+    width: 80px;
+    margin-left: 15px;
+    background-color: rgb(231, 103, 40)
+}
+.navi-menu li,a{
+    text-decoration: none;
+    list-style: none;
+    color:aliceblue;
+    padding: 10px 0px;
+    font-size: large;
+    margin-left: -12px;
+}
+
+.navi-menu a:hover{
+    color: chocolate;
+    padding-left: 10px;
+    transition:1s ease;
+}
+.follow{
+    padding: 0 2cm;
+}
+.followline{
+    height: 1px;
+    width: 90px;
+    background-color: rgb(231, 103, 40);
+}
+.icons{
+    display: flex;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.icons i{
+    border-radius: 50%;
+    padding:15px;    
+    background-color: rgb(78, 77, 77);
+    margin-right: 10px;
+}
+.icons i:hover{
+    color: black;
+    background-color:orange;
+}
+.mail i,.phone i{
+    font-size: 1cm;
+    margin-top:20px ;
+}
+.phone{
+    margin-bottom: 5cm;
+}
+.comp,.navigate,.follow{
+    margin-top: 1cm;
+}
+.copy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+}
+.header{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    margin-left: 2cm;
+}
+.menu ul{
+    display: flex;
+    margin-left: 25cm;
+}
+li,a{
+    padding:10px 10px ;
+    color: aliceblue;
+    list-style: none;
+    font-size: large;
+}
+.menu span a{
+    color: tomato;
+}
+.bottom{
+    background-image: url(./pexels-pixabay-258154.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 6cm;
+    padding-bottom: 5cm;
+    color: aliceblue;
+}
+.bottom span{
+    color: tomato;
+}
+button{
+    background-color: tomato;
+    padding: 13px;
+}
+.last{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.l2{ 
+    font-size: large;
+    padding-top: 1cm;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+}
+.end{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+}
+.e1,.e2,.e3{
+    padding: 2cm 0;
+}
+.e2{
+    background-color: tomato;
+}

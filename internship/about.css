@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+} 
+
+.main-header{
+    background-image: url(images/pexels-riccardo-bertolo-4245826.jpg);
+    background-size: cover;
+    border-bottom: 5px solid;
+    border-color:chocolate;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    margin-left: -150px;
+    padding-top: 10px;
+}
+
+.nav-menu{
+    display:flex;
+    text-decoration: none;
+    list-style: none;
+    margin-right: -5cm;
+}
+.nav-menu li{
+    padding: 30px;
+}
+.nav-menu a{
+    font-size:x-large;
+    color: antiquewhite;
+}
+.btline{
+    background-color: chocolate;
+    height: 3px;
+    width: 60px;
+    margin-top: 4px;
+    margin-left: -12px;
+}
+.nav-menu a:hover + .btline{
+    visibility: hidden;
+}
+.t1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: larger;
+    align-items: center;
+}
+.t1line{
+    height: 3px;
+    width: 100px;
+    background-color:chocolate;
+}
+.img{
+    display: flex;
+}
+.img1{
+    margin-left: 1cm;
+}
+.img2{
+    text-align: center;
+    border-left: 3px solid;
+    border-color: chocolate;
+    margin-left: 1cm;
+    background-color: rgb(175, 173, 173);
+    padding: 0 2cm;
+    margin-right: 2cm;
+}
+.award{
+    display: flex;
+    text-align: center;
+    padding:1cm 2cm;
+}
+.award i{
+    font-size: 1.5cm;
+    color:chocolate;
+}
+.tech{
+    background-color: rgb(44, 43, 43);
+    color: aliceblue;
+    padding-bottom: 2cm;
+}
+.headt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.techline{
+    background-color: rgb(254, 114, 14);
+    height: 2px;
+    width: 100px;
+}
+.bottomt{
+    margin-left: 5cm;
+}
+.bottomt div{
+    height: 25px;
+    border-radius:5px;
+}
+.hline ,.cline{
+    background-color:rgb(254, 114, 14) ;
+    width: 32cm;
+}
+.bline,.sline,.jline,.rline{
+    background-color:aliceblue;
+    width: 32cm;
+}
+.bline2{
+    background-color: rgb(254, 114, 14);
+    width: 26cm;
+}
+.sline2{
+    background-color: rgb(254, 114, 14);
+    width: 22cm;
+}
+.jline2{
+    background-color: rgb(254, 114, 14);
+    width: 28cm;
+}
+.rline2{
+    background-color: rgb(254, 114, 14);
+    width: 24cm;
+}
+.testi{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.testiline{
+    background-color: chocolate;
+    height: 2px;
+    width: 100px;
+}
+.bottom2 h2{
+    margin-left: 2.5cm;
+}
+.boxes{
+    display: flex;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+.b1,.b2,.b3,.b4{
+    border-color: black;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 5px 10px;
+}
+.box1,.box2,.box3,.box4{
+    padding: 10px 20px;
+}
+.boxes img{
+    border-radius: 50%;
+}
+.b11,.b22,.b33,.b44{
+    display: flex;
+    padding:20px;
+}
+.b11 p,.b22 p,.b33 p,.b44 p{
+    margin-left: 15px;
+}
+.end{
+    color: white;
+    background-color: rgb(36, 35, 35);
+}
+.end1{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2cm;
+}
+.compline{
+    height: 1px;
+    width: 80px;
+    background-color: rgb(231, 103, 40);
+}
+.navigate{
+    margin-left: 4cm;
+}
+.navigate h2{
+    padding: 0 5cm;
+    text-align:justify;
+    margin-left: -4.6cm;
+}
+.navigateline{
+    height: 1px;
+    width: 80px;
+    margin-left: 15px;
+    background-color: rgb(231, 103, 40)
+}
+.navi-menu li,a{
+    text-decoration: none;
+    list-style: none;
+    color:aliceblue;
+    padding: 10px 0px;
+    font-size: large;
+    margin-left: -12px;
+}
+
+.navi-menu a:hover{
+    color: chocolate;
+    padding-left: 10px;
+    transition:1s ease;
+}
+.follow{
+    padding: 0 2cm;
+}
+.followline{
+    height: 1px;
+    width: 90px;
+    background-color: rgb(231, 103, 40);
+}
+.icons{
+    display: flex;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.icons i{
+    border-radius: 50%;
+    padding:15px;    
+    background-color: rgb(78, 77, 77);
+    margin-right: 10px;
+}
+.icons i:hover{
+    color: black;
+    background-color:orange;
+}
+.mail i,.phone i{
+    font-size: 1cm;
+    margin-top:20px ;
+}
+.phone{
+    margin-bottom: 5cm;
+}
+.comp,.navigate,.follow{
+    margin-top: 1cm;
+}
+.copy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

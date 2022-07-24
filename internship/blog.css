@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+} 
+
+.main-header{
+    background-image: url(images/pexels-riccardo-bertolo-4245826.jpg);
+    background-size: cover;
+    border-bottom: 5px solid;
+    border-color:chocolate;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    margin-left: -150px;
+    padding-top: 10px;
+}
+
+.nav-menu{
+    display:flex;
+    margin-right: -5cm;
+}
+.nav-menu li{
+    padding: 30px;
+    list-style: none;
+}
+.nav-menu a{
+    font-size:x-large;
+    text-decoration: none;
+    color: antiquewhite;
+}
+.btline{
+    background-color: chocolate;
+    height: 3px;
+    width: 48px;
+    margin-top: 4px;
+    margin-left: -13px;
+}
+.nav-menu a:hover + .btline{
+    visibility: hidden;
+}
+.img1,.img2,.img3{
+    display: flex;
+}
+.img1t,.img2t,.img3t{
+    padding-left: 1cm;
+    padding-top: 3cm;
+}
+.img1ti,.img2ti,.img3ti{
+    display: flex;
+}
+.bottom i{
+    margin-top: 16px;
+    margin-right: 8px;
+}
+.bottom span{
+    font-weight: bold;
+}
+.bottom button{
+    padding: 10px 40px;
+    background-color: rgb(36, 35, 35);
+    color: aliceblue;
+}
+.img2t{
+    background-color: rgb(36, 35, 35);
+    color: white;
+}
+.img2 button{
+    background-color: white;
+    color: black;
+}
+.end{
+    color: white;
+    background-color: rgb(36, 35, 35);
+}
+.end1{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2cm;
+}
+.compline{
+    height: 1px;
+    width: 80px;
+    background-color: rgb(231, 103, 40);
+}
+.navigate{
+    margin-left: 4cm;
+}
+.navigate h2{
+    padding: 0 5cm;
+    text-align:justify;
+    margin-left: -4.6cm;
+}
+.navigateline{
+    height: 1px;
+    width: 80px;
+    margin-left: 15px;
+    background-color: rgb(231, 103, 40)
+}
+.navi-menu li,a{
+    text-decoration: none;
+    list-style: none;
+    color:aliceblue;
+    padding: 10px 0px;
+    font-size: large;
+    margin-left: -12px;
+}
+
+.navi-menu a:hover{
+    color: chocolate;
+    padding-left: 10px;
+    transition:1s ease;
+}
+.follow{
+    padding: 0 2cm;
+}
+.followline{
+    height: 1px;
+    width: 90px;
+    background-color: rgb(231, 103, 40);
+}
+.icons{
+    display: flex;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.icons i{
+    border-radius: 50%;
+    padding:15px;    
+    background-color: rgb(78, 77, 77);
+    margin-right: 10px;
+}
+.icons i:hover{
+    color: black;
+    background-color:orange;
+}
+.mail i,.phone i{
+    font-size: 1cm;
+    margin-top:20px ;
+}
+.phone{
+    margin-bottom: 5cm;
+}
+.comp,.navigate,.follow{
+    margin-top: 1cm;
+}
+.copy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+}
+button{
+    padding: 5px 65px;
+    background-color: rgb(74, 74, 252);
+    color: aliceblue;
+}
+.form{
+    border:black 1px solid;
+    margin: 0 10cm;
+    padding-bottom:40px ;
+}
